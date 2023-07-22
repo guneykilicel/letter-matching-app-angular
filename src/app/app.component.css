@@ -1,7 +1,21 @@
-.mainArea {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 721px;
-    background-color: blueviolet;
+.mainArea
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 721px;
+  background-color: blueviolet;
+}
+
+.pending{
+  color:gray;
+}
+
+.correct{
+  color: green;
+  font-weight: bold;
+}
+.incorrect{
+  color: red;
+  font-weight: bold;
 }
